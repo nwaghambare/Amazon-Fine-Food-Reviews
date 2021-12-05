@@ -7,6 +7,7 @@
 from nltk.stem.snowball import SnowballStemmer
 import pickle
 import re
+from flask import Flask, render_template, request
 
 
 # In[ ]:
@@ -54,7 +55,7 @@ with open('tfidf_vectorizer.pkl','rb') as file:
 # In[ ]:
 
 
-from flask import Flask, render_template, request
+
 
 
 app = Flask(__name__)

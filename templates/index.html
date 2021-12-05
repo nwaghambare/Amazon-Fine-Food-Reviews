@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align:center; background-color: black;">
+	<h1 style="color:White"> Welcome to <br> 
+	Amazon Food Reviews Sentiment Analysis </h1>
+</div>
+
+<hr>
+<div style="border: 1px solid darkseagreen;">
+	<p style="padding:10px;">
+		<a href="/">Home</a> 
+		<a style="padding:10px;" href="/about">About</a>
+	</p> 
+</div>
+
+<div>
+	<p>
+	<h4><i>What it does? And how to use?:</i></h4>
+	</p>
+	<p>
+	To use this API, you have to provide a <b>FOOD</b> review text and type or paste
+	it in the text box below. Once the text is added, click on Submit button.
+	After a moment, the page should change and the sentiment of the review will be
+	shown and the probability that this review is true.
+	</p>
+</div>
+<hr>
+<div style="text-align:center;">
+	<p>Enter Review text</p>
+	<form action="/result" method='post'>
+	<textarea name="review" rows="10" cols="100"> </textarea>
+	<br>
+	<input type="Submit" name='form' value="Submit">
+	</form>
+</div>
